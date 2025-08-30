@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+height: 50px;
+top: 0;
+width: 100%;
+position: fixed;
+background-color: bisque;
+gap: 30px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+box-sizing: border-box;
+z-index: 5;
+
+}
+
+#navbar h1{
+    margin-right: auto;
+}
+
+
+
+
+.nav1{
+   
+    background-color:rgb(191, 197, 140) ;
+    text-decoration:none ;
+    font-size: 1.1em;
+    transition: background-color 0.3s ;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: none;
+}
+
+.nav1:hover{
+    background-color: rgb(207, 169, 117);
+}
+
+#underbar{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+
+#desc{
+display: flex;
+justify-content: center;
+margin: 50px;
+
+}
+
+
+body{
+   background-image: url('bg.jpg');
+padding-top: 50px;
+}
+
+
+#image-container {
+display: flex;
+    justify-content: center;
+gap: 100px;
+flex-wrap: wrap;
+margin-bottom: 50px;
+z-index: 1;
+  }
+
+  .portfolio-img{
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: auto;
+    transition: transform 0.3s ;
+  }
+
+  .portfolio-img:hover{
+transform: scale(1.03);
+  }
+
+
+#skils{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    
+}
+
+.ski{
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+    background-color: bisque;
+display: flex;
+justify-content: center;
+align-items: center;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+
+#inputcontainer{
+   
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+background-color: rgb(227, 167, 217);
+flex-wrap: wrap;
+border-radius:5px ;
+
+}
+
+.inputbuttons{
+   
+    display: flex;
+    justify-content: center;
+ 
+ gap: 10px;
+ margin: 20px;
+}
+
+.inputbuttons input{
+    padding: 15px;
+    font-style: italic;
+    font-size: 1.1em;
+
+}
+
+
+.inputbuttons button{
+font-size: 1.1em;
+border-radius: 25%;
+transition: transform 0.3s;
+border: none;
+transition: transform 0.3s;
+}
+
+
+
+.inputbuttons button:hover{
+    transform: scale(1.1);
+}
+
+#footbox{
+    height: auto;
+    width: 100%;
+    background-color:rgb(227, 167, 217) ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    font-size: large;
+  
+}
